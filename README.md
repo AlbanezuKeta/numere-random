@@ -1,0 +1,2 @@
+# numere-random
+import random def dicerol () :     dice1 = random.randint (1,6)     dice2 = random.randint (1,6)     totoal = dice1 + dice2     if total % 2 == 0         total = total + 10         print ("you have rolled an even number") print ( dice1,dice2) print (total)
